@@ -4,7 +4,7 @@ import nexmo
 
 GPIO.setmode(GPIO.BOARD)
 
-client = nexmo.Client(key="f799075d",secret='hy2CiHd87DTDXjxy')
+client = nexmo.Client(key="key",secret='api_key')
 F_TRIG = 16
 F_ECHO = 18
 
