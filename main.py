@@ -142,7 +142,7 @@ while True:
         print("GPS SEND")
         client.send_message({
     'from':'Nexmo',
-    'to':'918766875503',
+    'to':'phone_number',
     'text':'There is a emergency. The current GPS coordinates are : 20.013328, 73.822564 . Get Location by searching Coordinates at https://www.google.co.in/maps',
 
         })
