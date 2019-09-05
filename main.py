@@ -56,7 +56,7 @@ def calculate_distance(pulse_start,pulse_end):
 def send_msg():
   client.send_message({
     'from':'Nexmo',
-    'to':'918766875503',
+    'to':'phone_number',
     'text':'There is a emergency. The current GPS coordinates are : 20°00\'59.5"N 73°45\'22.0"E',
 
     })
